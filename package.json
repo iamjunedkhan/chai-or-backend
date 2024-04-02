@@ -1,0 +1,16 @@
+{
+  "name": "chai-or-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "description": "backend series by chai or code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "juned khan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
