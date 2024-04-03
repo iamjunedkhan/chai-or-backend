@@ -2,7 +2,7 @@
   "name": "chai-or-backend",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "description": "backend series by chai or code",
   "version": "1.0.0",
@@ -12,5 +12,10 @@
   "devDependencies": {
     "nodemon": "^3.1.0",
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
   }
 }
